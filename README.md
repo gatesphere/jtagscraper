@@ -7,7 +7,13 @@ large music collection and provide an XML database
 of the results.
 
 ## License
-BSD, I guess
+jtagscraper is BSD Licensed.
+
+### jaudiotagger
+jaudiotagger is licensed under the LGPL license.
+
+### Apache Commons IO
+Apache Commons IO is licenced under the Apache License 2.0.
 
 ## Compilation
 TBD
