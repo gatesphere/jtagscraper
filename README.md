@@ -16,9 +16,25 @@ jaudiotagger is licensed under the LGPL license.
 Apache Commons IO is licenced under the Apache License 2.0.
 
 ## Compilation
-TBD
+Run the following on a UNIX/Cygwin machine:
+    
+    ./build.sh
 
 ## Usage
-TBD
+Run like so:
+
+    ./run.sh /path/to/music/library/root
+
+For example, on my Windows box, my music resides at C:\Users\Jake\Music.  I'd do:
+
+    ./run.sh C:/Users/Jake/Music
+
+(assuming a cygwin install...)
+
+On my linux box:
+
+    ./run.sh ~/music/
+
+You will end up with a large collection of XML files in the data/ directory.
 
 -->Jake

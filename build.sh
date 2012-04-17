@@ -5,6 +5,11 @@ LIB="lib/jaudiotagger.jar:lib/commons-io.jar:classes/."
 CLASSES="classes/"
 
 echo "Building..."
+
+if [ ! -e "$CLASSES" ]; then
+  mkdir $CLASSES
+fi
+
 if [[ $OSTYPE == linux-gnu ]]; then
   javac -cp $LIB -sourcepath $SRC -d $CLASSES $1 $SRC/*.java
 elif [[ $OSTYPE == cygwin ]]; then
